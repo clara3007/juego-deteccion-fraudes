@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚨 Detector de Fraudes 🚨</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <header class="game-header">
+            <img src="images/titulo.png" alt="Detector de Fraudes" class="game-title">
+            <div class="game-stats">
+                <div class="stat">
+                    <span class="stat-label">Puntuación:</span>
+                    <span id="score" class="stat-value">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Tiempo:</span>
+                    <span id="time" class="stat-value">60</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Nivel:</span>
+                    <span id="level" class="stat-value">1</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="game-board" id="gameBoard">
+            <!-- Los hoyos se generarán dinámicamente -->
+        </div>
+
+        <div class="game-controls">
+            <button id="startBtn" class="btn btn-start">🎮 Iniciar Juego</button>
+            <button id="pauseBtn" class="btn btn-pause" disabled>⏸️ Pausar</button>
+            <button id="resetBtn" class="btn btn-reset">🔄 Reiniciar</button>
+        </div>
+
+        <div class="instructions">
+            <h3>📋 Instrucciones:</h3>
+            <ul>
+                <li>🎯 Haz clic SOLO en las imágenes de fraude (rojas)</li>
+                <li>🚫 NO hagas clic en personajes amigables (verdes) - pierdes puntos</li>
+                <li>⚡ Sé rápido, las imágenes desaparecen en poco tiempo</li>
+                <li>🏆 Gana puntos por cada fraude detectado correctamente</li>
+                <li>⏰ Tienes 60 segundos por nivel</li>
+                <li>🚀 El juego se vuelve más rápido cada nivel</li>
+            </ul>
+        </div>
+
+        <div id="gameOver" class="game-over hidden">
+            <div class="game-over-content">
+                <h2>🎉 ¡Juego Terminado!</h2>
+                <p>Puntuación Final: <span id="finalScore">0</span></p>
+                <p>Nivel Alcanzado: <span id="finalLevel">1</span></p>
+                <p id="performance"></p>
+                <button id="playAgainBtn" class="btn btn-start">🔄 Jugar de Nuevo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

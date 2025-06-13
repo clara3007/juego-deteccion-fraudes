@@ -1,0 +1,35 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#FFE4E4" stroke="#FF4444" stroke-width="2"/>
+  
+  <!-- Phone/device -->
+  <rect x="35" y="25" width="25" height="40" fill="#2C3E50" stroke="#000" stroke-width="2" rx="4"/>
+  <rect x="37" y="30" width="21" height="25" fill="#74B9FF" stroke="#000" stroke-width="1"/>
+  <circle cx="47.5" cy="60" r="3" fill="#DDD"/>
+  
+  <!-- Screen content -->
+  <rect x="39" y="32" width="17" height="3" fill="#FFF"/>
+  <rect x="39" y="37" width="14" height="2" fill="#FFF"/>
+  <rect x="39" y="41" width="19" height="2" fill="#FFF"/>
+  <rect x="39" y="45" width="12" height="2" fill="#FFF"/>
+  
+  <!-- Thief hand -->
+  <ellipse cx="20" cy="45" rx="8" ry="12" fill="#FDBCB4" transform="rotate(-30 20 45)"/>
+  <rect x="12" y="40" width="4" height="15" fill="#2C3E50" transform="rotate(-30 14 47.5)"/>
+  
+  <!-- Grabbing motion lines -->
+  <path d="M 28 38 Q 30 35 32 38" stroke="#FF4444" stroke-width="2" fill="none"/>
+  <path d="M 30 42 Q 32 39 34 42" stroke="#FF4444" stroke-width="2" fill="none"/>
+  <path d="M 26 44 Q 28 41 30 44" stroke="#FF4444" stroke-width="2" fill="none"/>
+  
+  <!-- Warning symbols -->
+  <circle cx="75" cy="25" r="8" fill="#FF4444"/>
+  <text x="75" y="30" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold">!</text>
+  
+  <!-- Danger zigzag -->
+  <path d="M 70 75 L 75 70 L 80 75 L 85 70 L 90 75" stroke="#FF4444" stroke-width="3" fill="none"/>
+  
+  <!-- "STOLEN" effect -->
+  <rect x="65" y="45" width="30" height="8" fill="#FF4444" rx="2" transform="rotate(15 80 49)"/>
+  <text x="80" y="51" text-anchor="middle" fill="#FFF" font-size="6" font-weight="bold" transform="rotate(15 80 49)">STOLEN</text>
+</svg> 

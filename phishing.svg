@@ -1,0 +1,27 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#FFE4E4" stroke="#FF4444" stroke-width="2"/>
+  
+  <!-- Email envelope -->
+  <rect x="20" y="35" width="60" height="40" fill="#FFF" stroke="#333" stroke-width="2" rx="3"/>
+  
+  <!-- Email flap -->
+  <path d="M 20 35 L 50 55 L 80 35 Z" fill="#FFD700" stroke="#333" stroke-width="2"/>
+  
+  <!-- Fake/danger symbols -->
+  <circle cx="70" cy="25" r="8" fill="#FF4444"/>
+  <text x="70" y="30" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold">!</text>
+  
+  <!-- Hook (fishing hook for phishing) -->
+  <path d="M 30 45 Q 25 40 20 45 Q 15 50 20 55 Q 25 50 30 55" stroke="#FF4444" stroke-width="3" fill="none"/>
+  <circle cx="18" cy="47" r="2" fill="#FF4444"/>
+  
+  <!-- Email lines (fake content) -->
+  <rect x="25" y="42" width="30" height="2" fill="#DDD"/>
+  <rect x="25" y="47" width="40" height="2" fill="#DDD"/>
+  <rect x="25" y="52" width="35" height="2" fill="#DDD"/>
+  <rect x="25" y="57" width="25" height="2" fill="#DDD"/>
+  
+  <!-- Warning zigzag -->
+  <path d="M 85 15 L 90 10 L 95 15 L 90 20 Z" fill="#FF4444"/>
+</svg> 

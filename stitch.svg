@@ -1,0 +1,43 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#E6F3FF" stroke="#4ECDC4" stroke-width="2"/>
+  
+  <!-- Stitch head -->
+  <ellipse cx="50" cy="45" rx="25" ry="22" fill="#4ECDC4"/>
+  
+  <!-- Ears -->
+  <ellipse cx="35" cy="25" rx="8" ry="15" fill="#4ECDC4" transform="rotate(-30 35 25)"/>
+  <ellipse cx="65" cy="25" rx="8" ry="15" fill="#4ECDC4" transform="rotate(30 65 25)"/>
+  <ellipse cx="35" cy="25" rx="4" ry="10" fill="#2C3E50" transform="rotate(-30 35 25)"/>
+  <ellipse cx="65" cy="25" rx="4" ry="10" fill="#2C3E50" transform="rotate(30 65 25)"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="42" cy="40" rx="6" ry="8" fill="#000"/>
+  <ellipse cx="58" cy="40" rx="6" ry="8" fill="#000"/>
+  <circle cx="43" cy="38" r="2" fill="#FFF"/>
+  <circle cx="59" cy="38" r="2" fill="#FFF"/>
+  
+  <!-- Nose -->
+  <ellipse cx="50" cy="48" rx="3" ry="2" fill="#2C3E50"/>
+  
+  <!-- Mouth -->
+  <path d="M 40 55 Q 50 65 60 55" stroke="#2C3E50" stroke-width="3" fill="none"/>
+  
+  <!-- Teeth -->
+  <rect x="47" y="55" width="2" height="4" fill="#FFF"/>
+  <rect x="51" y="55" width="2" height="4" fill="#FFF"/>
+  
+  <!-- Body -->
+  <ellipse cx="50" cy="75" rx="18" ry="20" fill="#4ECDC4"/>
+  
+  <!-- Chest/belly -->
+  <ellipse cx="50" cy="78" rx="12" ry="15" fill="#A8E6CF"/>
+  
+  <!-- Arms -->
+  <ellipse cx="28" cy="65" rx="6" ry="12" fill="#4ECDC4" transform="rotate(-20 28 65)"/>
+  <ellipse cx="72" cy="65" rx="6" ry="12" fill="#4ECDC4" transform="rotate(20 72 65)"/>
+  
+  <!-- Claws -->
+  <circle cx="25" cy="72" r="2" fill="#2C3E50"/>
+  <circle cx="75" cy="72" r="2" fill="#2C3E50"/>
+</svg> 
